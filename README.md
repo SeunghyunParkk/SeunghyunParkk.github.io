@@ -1,1 +1,0 @@
-# SeunghyunParkk.github.io
