@@ -10975,7 +10975,7 @@ html {
   font-size: 1.1rem; 
   max-width: 800px; 
   margin: 0 auto; 
-  text-align: left; 
+  text-align: left !important; /* 강제로 왼쪽 정렬 */
   line-height: 1.6; 
 }
 
