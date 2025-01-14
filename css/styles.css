@@ -10971,9 +10971,12 @@ html {
   padding-top: calc(6rem + 74px);
   padding-bottom: 6rem;
 }
-.masthead .masthead-heading {
-  font-size: 2.75rem;
-  line-height: 2.75rem;
+.masthead .masthead-subheading {
+  font-size: 1.25rem; 
+  max-width: 800px; 
+  margin: 0 auto; 
+  text-align: center; 
+  line-height: 1.6; 
 }
 .masthead .masthead-subheading {
   font-size: 1.25rem;
