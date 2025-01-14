@@ -10981,16 +10981,6 @@ html {
 .masthead .masthead-subheading {
   font-size: 1.25rem;
 }
-.masthead-avatar {
-    background-image: url('assets/img/profile.jpg'); /* 자신의 이미지 파일 경로 */
-    background-size: cover; /* 이미지를 요소 크기에 맞게 */
-    background-position: center; /* 이미지 중앙 정렬 */
-    width: 15rem; /* 기존 크기 유지 */
-    height: 15rem; /* 정사각형 크기 */
-    border-radius: 50%; /* 동그랗게 */
-    background-color: white; /* 배경색을 투명하게 설정 */
-    border: none; /* 필요 시 테두리 제거 */
-}
 
 @media (min-width: 992px) {
   .masthead {
