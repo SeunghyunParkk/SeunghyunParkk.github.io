@@ -10972,10 +10972,10 @@ html {
   padding-bottom: 6rem;
 }
 .masthead .masthead-subheading {
-  font-size: 1.25rem; 
+  text-align: right; 
+  font-size: 1.1rem; 
   max-width: 800px; 
   margin: 0 auto; 
-  text-align: center; 
   line-height: 1.6; 
 }
 .masthead .masthead-subheading {
