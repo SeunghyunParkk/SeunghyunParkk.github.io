@@ -10980,22 +10980,6 @@ html {
 }
 
 @media (min-width: 992px) {
-  .masthead {
-    padding-top: calc(6rem + 104px);
-    padding-bottom: 6rem;
-  }
-  .masthead .masthead-heading {
-    font-size: 4rem;
-    line-height: 3.5rem;
-  }
-  .masthead .masthead-subheading {
-    font-size: 1.1rem; 
-    max-width: 800px; 
-    margin: 0 auto; 
-    text-align: left; 
-    line-height: 1.6; 
-  }
-}
 .portfolio .portfolio-item {
   cursor: pointer;
   position: relative;
