@@ -10982,7 +10982,7 @@ html {
   font-size: 1.25rem;
 }
 .masthead-avatar {
-    background-image: url('assets/images/profile.jpg'); /* 자신의 이미지 파일 경로 */
+    background-image: url('assets/img/profile.jpg'); /* 자신의 이미지 파일 경로 */
     background-size: cover; /* 이미지를 요소 크기에 맞게 */
     background-position: center; /* 이미지 중앙 정렬 */
     width: 15rem; /* 기존 크기 유지 */
