@@ -10988,7 +10988,7 @@ html {
     width: 15rem; /* 기존 크기 유지 */
     height: 15rem; /* 정사각형 크기 */
     border-radius: 50%; /* 동그랗게 */
-    background-color: transparent; /* 배경색을 투명하게 설정 */
+    background-color: white; /* 배경색을 투명하게 설정 */
     border: none; /* 필요 시 테두리 제거 */
 }
 
