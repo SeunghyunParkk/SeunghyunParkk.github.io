@@ -6,6 +6,46 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
     <link rel="stylesheet" href="assets/css/main.css" />
     <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+
+    <!-- 추가 스타일 -->
+    <style>
+        /* 모든 섹션을 가운데 정렬 */
+        section {
+            text-align: center;
+        }
+
+        /* 이미지 스타일 */
+        section img {
+            display: block;
+            margin: 20px auto; /* 수평 가운데 정렬 */
+            border-radius: 50%; /* 원형 이미지 */
+            width: 150px; /* 이미지 너비 */
+            height: 150px; /* 이미지 높이 */
+            object-fit: cover; /* 비율 유지하며 잘림 */
+        }
+
+        /* 섹션 콘텐츠를 세로/가로 가운데 정렬 */
+        section .content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 300px; /* 섹션 높이 */
+        }
+
+        /* 추가로 텍스트 스타일을 조정할 수도 있음 */
+        h1, h2, h3 {
+            font-family: Arial, sans-serif;
+            font-size: 2rem; /* 헤더 크기 */
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 1rem; /* 본문 텍스트 크기 */
+            line-height: 1.5;
+            margin: 10px 0;
+        }
+    </style>
 </head>
 <body class="is-preload">
 
@@ -61,7 +101,7 @@
                         <h2>About Me</h2>
                     </header>
                     <div style="display: flex; align-items: center; gap: 20px;">
-                        <img src="images/my-profile.jpg" alt="My Profile" style="width: 150px; height: 150px; border-radius: 50%; object-fit: cover;">
+                        <img src="images/my_profile.jpg" alt="My Profile" style="width: 150px; height: 150px; border-radius: 50%; object-fit: cover;">
                         <p>
                             I am a passionate data analyst and developer, eager to solve real-world problems using data-driven solutions.
                         </p>
